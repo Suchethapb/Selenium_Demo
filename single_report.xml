@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="classes" thread-count="2">
+<listeners>
+	<listener class-name="com.ExtendReport.Listeners"/>
+</listeners>
+	<test name="Test">
+		<classes>
+			<class name="com.WebOrder.weborderCrossBrowser_DataProvider"/>
+      <class name="com.WebOrder.webOrdeerCreateorder_All_Tcs"/>
+      <class name="com.WebOrder.WebcreateOrder"/>
+      <class name="com.WebOrder.WebOrder_LoginData_AllscenariosTest"/>
+      <class name="com.WebOrder.weborder_TestData"/>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
